@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "Base Methods and R Sample"
+
+  sidebar: 
+    pinned: true
+    align: center
+    tools:
+        - icon: github
+          href: https://github.com/frumh002
+  
+    style: "docked"
+    search: false
+    collapse-level: 1
+    contents: 
+      - href: index.qmd
+        text: Home
+    
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: false
+    code-overflow: wrap
+    toc: true

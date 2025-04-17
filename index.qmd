@@ -1,0 +1,19 @@
+---
+title: "School Segregation Descriptive Report"
+author: 
+  - Mateo Frumholtz
+  - Sara Garcia
+date: "`r Sys.Date()`"
+format:
+  html:
+    embed-resources: true
+toc: true
+execute:
+  warning: false
+  error: false
+---
+
+# Overview
+
+- Sources
+
